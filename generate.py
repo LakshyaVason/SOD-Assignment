@@ -142,7 +142,7 @@ def assign_shifts(df):
 assignments = assign_shifts(df)
 
 # Step 4: Save the new assignments to an Excel file
-output_df = pd.DataFrame(assignments, columns=['Date', 'Assigned Employee'])
+output_df = pd.DataFrame(assignments, columns=['Date', 'Assigned Butt'])
 output_df.to_excel('shift_assignments.xlsx', index=False)
 
 # Coloring past dates
